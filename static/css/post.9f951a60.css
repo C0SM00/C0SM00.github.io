@@ -229,10 +229,10 @@
     --comment: #808080;/*#6c6d72*/
     --foreground: #ccc;
     --selection: #44475a;
-    --blue: #4CB5AC;
+    --blue: #89DDFF;
     --cyan: #6495EF;
-    --green: #ADD9A3;
-    --orange: #E7BE55;
+    --green: #C3E88D;
+    --orange: #DECB6B;
     --pink: #AE8DBE;
     --purple: #73A3E8;
     --red: #EE82EE;
@@ -393,7 +393,7 @@ code[class*=language-], pre[class*=language-] {
     color: var(--foreground) !important;
     background: var(--background);
     text-shadow: none;
-    font-family: "Fira Code", Consolas, "Courier New", serif;
+    font-family: "Source Code Pro", Inconsolata, Monospaced, "Courier New", Consolas, serif;
     text-align: left;
     white-space: pre;
     word-spacing: normal;
@@ -591,7 +591,7 @@ pre[class*=language-] {
 }
 
 .token.operator {
-    color: var(--foreground);
+    color: var(--blue);
     background: transparent
 }
 
